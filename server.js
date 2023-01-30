@@ -19,8 +19,8 @@ const server = require('http').createServer(app);
 const port = 5001;
 const io = require('socket.io')(server, {
     cors: {
-        // origin: 'https://chat-app-eight-sepia.vercel.app',
-        origin: "*"
+        origin: 'https://chat-app-eight-sepia.vercel.app',
+//         origin: "*"
 //         methods: ['GET', 'POST']
 
     }
