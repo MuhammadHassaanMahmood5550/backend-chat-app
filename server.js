@@ -20,8 +20,9 @@ const port = 5001;
 const io = require('socket.io')(server, {
     cors: {
         origin: 'https://chat-app-eight-sepia.vercel.app',
+        methods: ['GET', 'POST']
 //         origin: "*"
-//         methods: ['GET', 'POST']
+        
 
     }
 })
