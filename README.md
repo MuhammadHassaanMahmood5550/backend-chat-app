@@ -1,1 +1,2 @@
-Using Node, Sockets, Mongoose, Bcrypt.
+# backend-chat-app
+Using Node, Express, Sockets, MongoDB, Bcrypt.
